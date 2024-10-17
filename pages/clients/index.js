@@ -16,7 +16,7 @@ function ClientPage(){
                     clients.map(client =>{
                         return (
                             <li key={client.id}> 
-                                <Link href={{pathname: 'clients/[id',
+                                <Link href={{pathname: 'clients/[id]',
                                     query: {id: client.id}
                                 }}>{client.name}</Link>
                             </li>
